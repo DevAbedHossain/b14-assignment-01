@@ -1,0 +1,1 @@
+<!-- Here is my figma png file in my website layout and design. Frist you overview this design. after that, add one more section according this design font, color, style. (e.g. Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.) -->
