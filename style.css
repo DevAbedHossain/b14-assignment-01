@@ -1,0 +1,435 @@
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  padding: 0;
+  margin: 0;
+}
+.btn-primary {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #1d4ed8;
+  color: #fff;
+  font-family: inter;
+  border: none;
+  border-radius: 10px;
+}
+.btn-primary:hover {
+  background-color: #153a9e;
+}
+
+/* Regular CSS */
+.container {
+  width: 1300px;
+  padding: 15px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+}
+
+/* Header Nav CSS Start */
+/* Header Nav Left Item CSS Start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.nav-left-item {
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
+.nav-left-item img {
+  width: 16%;
+  object-fit: cover;
+}
+.nav-left-item h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0d1b2a;
+  font-family: inter;
+}
+/* Header Nav Left Item CSS End */
+
+/* Header Nav Center Item CSS Start */
+.nav-center-item {
+  width: 60%;
+}
+.nav-center-item ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.nav-center-item ul li {
+  list-style: none;
+  padding: 20px;
+}
+.nav-center-item ul li a {
+  text-decoration: none;
+  color: #575757;
+  font-family: arimo;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* Header Nav Center Item CSS End */
+
+/* Header Nav Right Item CSS Start */
+.nav-right-item {
+  width: 20%;
+  text-align: right;
+}
+.nav-right-item .btn-edit {
+  padding: 10px 25px;
+}
+.nav-right-item a {
+  text-decoration: none;
+  color: #fff;
+}
+/* Header Nav Right Item CSS End */
+
+/* Header Nav CSS End */
+
+/* Hero Section CSS Start */
+/* .hero-section {
+  background-image: url("./image/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+} */
+.hero-section {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./image/banner.jpg") center/cover no-repeat;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  min-height: 80vh;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.hero-top-content h1 {
+  font-size: 80px;
+  font-family: inter;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.hero-top-content p {
+  font-size: 16px;
+  font-family: inter;
+  font-weight: 400;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.btn-style {
+  color: #fff;
+  padding: 13px 30px;
+}
+.btn-style a {
+  color: #fff;
+  text-decoration: none;
+}
+/* Hero Section CSS end */
+
+/* Speakers Section CSS Start  */
+.speaker-section-title {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.speaker-section-title h2 {
+  font-size: 58px;
+  font-family: inter;
+  font-weight: bold;
+  color: #000102;
+  text-align: center;
+}
+.speakers-list {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.speaker-card {
+  width: 48%;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+.speaker-card img {
+  border-radius: 12px 12px 0px 0px;
+  height: 320px;
+  object-fit: cover;
+}
+.speaker-info {
+  padding: 20px;
+}
+.speaker-info p:first-child {
+  color: #2563eb;
+  font-size: 12px;
+  font-family: inter;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.speaker-info h3 {
+  color: #0d1b2a;
+  font-size: 20px;
+  font-family: inter;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+.speaker-info p:last-child {
+  color: #575757;
+  font-size: 14px;
+  font-family: inter;
+  font-weight: 400;
+}
+/* Speakers Section CSS End  */
+
+/* Pricing Section CSS Start */
+.pricing-section-title {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.pricing-section-title h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: inter;
+  color: #0d1b2a;
+  padding-bottom: 7px;
+}
+.pricing-section-title p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: inter;
+  color: #575757;
+}
+.price-list {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  gap: 20px;
+  flex-wrap: nowrap;
+  padding-bottom: 50px;
+}
+.price-item {
+  padding: 30px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  width: 33%;
+}
+.price-item p:first-child {
+  color: #888888;
+  font-size: 13px;
+  font-family: inter;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.price-item h2 {
+  color: #0d1b2a;
+  font-size: 44px;
+  font-family: inter;
+  font-weight: bold;
+}
+.price-item p:last-child {
+  color: #888888;
+  font-size: 13px;
+  font-family: inter;
+  font-weight: 400;
+}
+.price-item ul {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.price-item ul li {
+  color: #333333;
+  font-size: 14px;
+  font-family: inter;
+  font-weight: 400;
+  padding: 5px 0px;
+}
+.price-item ul li::marker {
+  color: #2563eb;
+}
+.btn-price {
+  width: 100%;
+  border: 1px solid #2563eb;
+  background-color: #fff;
+  padding: 13px 30px;
+  border-radius: 8px;
+}
+.btn-price:hover {
+  background-color: #2563eb;
+}
+.btn-price:hover a {
+  color: #fff;
+}
+.btn-price a {
+  text-decoration: none;
+  color: #2563eb;
+  font-size: 14px;
+  font-family: inter;
+  font-weight: 600;
+}
+/* pricing pro item box style start */
+.price-item.pro {
+  background-color: #0d1b2a;
+}
+.price-item.pro p:first-of-type {
+  color: #93c5fd;
+}
+.price-item.pro h2 {
+  color: #fff;
+}
+.price-item.pro p:last-of-type {
+  color: #fff;
+}
+.price-item.pro ul li {
+  color: #fff;
+}
+.btn-price.btn-dark {
+  background-color: #2563eb;
+}
+.btn-price.btn-dark:hover {
+  background-color: #fff;
+}
+.btn-price.btn-dark:hover a {
+  color: #2563eb;
+}
+.btn-price.btn-dark a {
+  color: #fff;
+}
+/* pricing pro item box style end */
+
+/* pricing Gray item box style start */
+.price-item.gray {
+  background-color: #f8f9fb;
+}
+/* pricing Gray item box style end */
+
+/* Pricing Section CSS End */
+
+/* AI Section CSS Start */
+.schedule-section-title {
+  padding: 50px;
+  text-align: center;
+}
+.schedule-section-title h2 {
+  font-size: 42px;
+  font-family: Inter;
+  font-weight: 700;
+  color: #0d1b2a;
+  margin-bottom: 12px;
+}
+.schedule-section-title p {
+  width: 50%;
+  margin: auto;
+  color: #575757;
+  font-size: 16px;
+  font-family: inter;
+}
+.schedule-list {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+.schedule-item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 28px 32px;
+  margin-bottom: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+.schedule-item:hover {
+  border-color: #2563eb;
+  transform: translateY(-3px);
+}
+.schedule-item span {
+  width: 25%;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: inter;
+  color: #2563eb;
+}
+.schedule-item h3 {
+  font-size: 22px;
+  color: #111827;
+  font-family: inter;
+  margin-bottom: 6px;
+}
+.schedule-item p {
+  color: #6b7280;
+  font-family: inter;
+}
+/* AI Section CSS End */
+
+/* Footer section CSS Start */
+footer {
+  background-color: #0d1b2a;
+}
+.footer-items {
+  padding-top: 40px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.footer-top ul {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-top ul li {
+  list-style: none;
+  padding-left: 10px;
+}
+.footer-top ul li a {
+  text-decoration: none;
+}
+.footer-top ul li a i {
+  color: #fff;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.footer-top ul li:hover a i {
+  transform: translateY(-3px);
+}
+.footer-bottom p {
+  color: #fff;
+  font-size: 16px;
+  font-family: inter;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Footer section CSS End */
