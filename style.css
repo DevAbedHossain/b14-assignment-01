@@ -85,6 +85,9 @@ nav {
   font-size: 16px;
   font-weight: 500;
 }
+.nav-center-item ul li a:hover {
+  color: #2563eb;
+}
 /* Header Nav Center Item CSS End */
 
 /* Header Nav Right Item CSS Start */
@@ -179,6 +182,7 @@ nav {
   transition: 0.5s;
 }
 .speaker-card:hover {
+  border: 1px solid #2563eb;
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
 }
 .speaker-card img {
@@ -244,6 +248,9 @@ nav {
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   width: 33%;
+}
+.price-item:hover {
+  border: 1px solid #2563eb;
 }
 .price-item p:first-child {
   color: #888888;
