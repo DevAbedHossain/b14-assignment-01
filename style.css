@@ -167,7 +167,7 @@ nav {
 }
 .speakers-list {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   flex-direction: row;
   flex-wrap: wrap;
   padding-bottom: 50px;
@@ -176,6 +176,10 @@ nav {
   width: 48%;
   border-radius: 12px;
   border: 1px solid #e5e7eb;
+  transition: 0.5s;
+}
+.speaker-card:hover {
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
 }
 .speaker-card img {
   border-radius: 12px 12px 0px 0px;
